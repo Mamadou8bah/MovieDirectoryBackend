@@ -4,6 +4,31 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 .mvn
+# IDE settings
+.idea/
+*.iml
+.vscode/
+
+# Maven target directory
+target/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+.gitignore
+.gitattributes
+
+mvnw
+mvnw.cmd
+# Log files
+*.log
+
+# Compiled files
+*.class
+
+# Build artifacts
+*.jar
+*.war
 
 ### STS ###
 .apt_generated
