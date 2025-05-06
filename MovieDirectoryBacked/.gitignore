@@ -1,36 +1,28 @@
-HELP.md
+# Maven
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-.mvn
-# IDE settings
-.idea/
-*.iml
-.vscode/
-
-# Maven target directory
-target/
-
-# OS generated files
-.DS_Store
-Thumbs.db
-.gitignore
-.gitattributes
-
-mvnw
-mvnw.cmd
-# Log files
-*.log
-
-# Compiled files
 *.class
-
-# Build artifacts
 *.jar
 *.war
+*.log
+.mvn/
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-### STS ###
+# Maven Wrapper
+mvnw
+mvnw.cmd
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDEs
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# STS (Spring Tool Suite)
 .apt_generated
 .classpath
 .factorypath
@@ -39,21 +31,19 @@ mvnw.cmd
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
+# VS Code
 .vscode/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+build/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+
